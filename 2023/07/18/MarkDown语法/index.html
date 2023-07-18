@@ -16,12 +16,12 @@
   <meta name="author" content="Lphhhhh">
   <meta name="keywords" content="">
   
-    <meta name="description" content="一、打开预览窗口ctrl+k,v 二、简单markdown语法 段落,加粗  分割线  &#x2F;—  引用  你好nihao   代码块 1print(&quot;helloworld&quot;)  1print(&quot;helloworld&quot;)  超链接   链接名称  图片 cltr+alt+v:保存到Images中  在blog中需要保存至sourse下的images中">
+    <meta name="description" content="一、打开预览窗口ctrl+k,v 二、简单markdown语法 段落,加粗  分割线  &#x2F;—  引用  你好nihao   代码块 1print(print(&quot;helloworld&quot;)  1print(&quot;helloworld&quot;)  超链接   链接名称  图片 cltr+alt+v:保存到Images中  在blog中需要保存至sourse下的images中   三、数学公式(ctrl+">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown入门教程(自用)">
 <meta property="og:url" content="http://example.com/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一、打开预览窗口ctrl+k,v 二、简单markdown语法 段落,加粗  分割线  &#x2F;—  引用  你好nihao   代码块 1print(&quot;helloworld&quot;)  1print(&quot;helloworld&quot;)  超链接   链接名称  图片 cltr+alt+v:保存到Images中  在blog中需要保存至sourse下的images中">
+<meta property="og:description" content="一、打开预览窗口ctrl+k,v 二、简单markdown语法 段落,加粗  分割线  &#x2F;—  引用  你好nihao   代码块 1print(print(&quot;helloworld&quot;)  1print(&quot;helloworld&quot;)  超链接   链接名称  图片 cltr+alt+v:保存到Images中  在blog中需要保存至sourse下的images中   三、数学公式(ctrl+">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/20230718023212.png">
 <meta property="og:image" content="http://example.com/images/20230718023827.png">
@@ -64,6 +64,11 @@
 
 <link  rel="stylesheet" href="/css/main.css" />
 
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
 
 
 
@@ -121,6 +126,18 @@
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://notes.orangex4.cool/?git=github&amp;github=lphhhhh/Vscode_Github_Notes">
+                <i class="iconfont icon-github-fill"></i>
+                <span>笔记</span>
               </a>
             </li>
           
@@ -311,9 +328,9 @@
 </blockquote>
 </li>
 <li><p>代码块</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;helloworld&quot;</span>)</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string"><code class="language-hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">"helloworld"</span>)<br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure></li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&quot;helloworld&quot;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs python&#123;.line-numbers&#125;"><code class="language-hljs python&#123;.line-numbers&#125;">print("helloworld")<br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure>
 <ol start="5">
 <li><p>超链接<br>   <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a></p>
 </li>
@@ -516,9 +533,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/07/18/Git%E4%BD%BF%E7%94%A8/" title="git入门(自用)">
+                      <a href="/2023/07/18/Day_2/" title="Day 2">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">git入门(自用)</span>
+                        <span class="hidden-mobile">Day 2</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -526,8 +543,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/07/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" title="我的第一篇博客文章">
-                        <span class="hidden-mobile">我的第一篇博客文章</span>
+                      <a href="/2023/07/18/Git%E4%BD%BF%E7%94%A8/" title="git入门(自用)">
+                        <span class="hidden-mobile">git入门(自用)</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -565,6 +582,9 @@
 
 
 
+
+
+  
 
 
 
