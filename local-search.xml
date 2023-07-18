@@ -35,35 +35,6 @@
   
   
   <entry>
-    <title>git入门(自用)</title>
-    <link href="/2023/07/18/Git%E4%BD%BF%E7%94%A8/"/>
-    <url>/2023/07/18/Git%E4%BD%BF%E7%94%A8/</url>
-    
-    <content type="html"><![CDATA[<h1 id="一、初始化设置"><a href="#一、初始化设置" class="headerlink" title="一、初始化设置"></a>一、初始化设置</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git -v   //查看版本</span><br><span class="line">git config --global user.name &quot;lphhhhh&quot;  //添加姓名</span><br><span class="line">git config --global user.email lph20020529@gmail.com   //添加邮箱</span><br><span class="line">git config --global credential.helper store  //保存用户名和密码</span><br><span class="line">git config --global --list  //查看用户名和邮箱</span><br></pre></td></tr></table></figure><h1 id="二、新建仓库-Repository-Repo"><a href="#二、新建仓库-Repository-Repo" class="headerlink" title="二、新建仓库(Repository   Repo)"></a>二、新建仓库(Repository   Repo)</h1><ol><li><p>找到一个合适的位置创建一个空仓库</p></li><li><p>输入 git init即可创建仓库</p></li><li><p>查看是否有git文件</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ls  //查看目录</span><br><span class="line">ls -a //查看隐藏目录</span><br></pre></td></tr></table></figure></li></ol><h1 id="三、git工作区域"><a href="#三、git工作区域" class="headerlink" title="三、git工作区域"></a>三、git工作区域</h1><h2 id="1-工作区"><a href="#1-工作区" class="headerlink" title="1.工作区"></a>1.工作区</h2><ol><li>本地目录</li></ol><h2 id="2-暂存区"><a href="#2-暂存区" class="headerlink" title="2.暂存区"></a>2.暂存区</h2><ol><li>是一种临时存储区域，用于保存即将提交到Git仓库的修改内容</li></ol><h2 id="3-本地仓库"><a href="#3-本地仓库" class="headerlink" title="3.本地仓库"></a>3.本地仓库</h2><ol><li>二中建立的仓库</li></ol><h2 id="4-git中的文件状态"><a href="#4-git中的文件状态" class="headerlink" title="4.git中的文件状态"></a>4.git中的文件状态</h2><ol><li>未跟踪：还没有被git管理起来的文件</li><li>未修改：已经被git管理，但是文件的内容未发生改变</li><li>已修改：已经修改了的文件，但是还没有添加到暂存区</li><li>已暂存：添加到暂存区内的文件</li></ol><h1 id="四、将文件添加到仓库里"><a href="#四、将文件添加到仓库里" class="headerlink" title="四、将文件添加到仓库里"></a>四、将文件添加到仓库里</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init  //创建仓库</span><br><span class="line">git status  //查看仓库状态</span><br><span class="line">git add “文件名称”  //添加到暂存区</span><br><span class="line">git add <span class="emphasis">*。文件后缀  //把该文件后置的所有文件添加到暂存区</span></span><br><span class="line"><span class="emphasis">git add .    //将所有文件添加到暂存区</span></span><br><span class="line"><span class="emphasis">git commit -m &quot;注释&quot;  //提交，只会提交暂存区的文件而不会提交工作区</span></span><br><span class="line"><span class="emphasis">git log  //查找提交</span></span><br></pre></td></tr></table></figure><ol><li>在Vscode中新建内容</li><li>查看仓库状态（此时所有文件为未跟踪状态，显示为红色）</li><li>将文件添加至暂存区（此时文件颜色应该未绿色）</li><li>提交</li><li>查看仓库状态，此时仓库中之前在暂存区的文件应该已经不见了，因为已经被提交了</li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li>每次写完笔记（更改）</li><li>git add . </li><li>git commit -m “注释”</li><li>git push Vscode_Github_Notes master</li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>VScode_Notes</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>git</tag>
-      
-      <tag>vscode</tag>
-      
-      <tag>private</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Markdown入门教程(自用)</title>
     <link href="/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/"/>
     <url>/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/</url>
@@ -93,6 +64,35 @@
   
   
   <entry>
+    <title>git入门(自用)</title>
+    <link href="/2023/07/18/Git%E4%BD%BF%E7%94%A8/"/>
+    <url>/2023/07/18/Git%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一、初始化设置"><a href="#一、初始化设置" class="headerlink" title="一、初始化设置"></a>一、初始化设置</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git -v   //查看版本</span><br><span class="line">git config --global user.name &quot;lphhhhh&quot;  //添加姓名</span><br><span class="line">git config --global user.email lph20020529@gmail.com   //添加邮箱</span><br><span class="line">git config --global credential.helper store  //保存用户名和密码</span><br><span class="line">git config --global --list  //查看用户名和邮箱</span><br></pre></td></tr></table></figure><h1 id="二、新建仓库-Repository-Repo"><a href="#二、新建仓库-Repository-Repo" class="headerlink" title="二、新建仓库(Repository   Repo)"></a>二、新建仓库(Repository   Repo)</h1><ol><li><p>找到一个合适的位置创建一个空仓库</p></li><li><p>输入 git init即可创建仓库</p></li><li><p>查看是否有git文件</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ls  //查看目录</span><br><span class="line">ls -a //查看隐藏目录</span><br></pre></td></tr></table></figure></li></ol><h1 id="三、git工作区域"><a href="#三、git工作区域" class="headerlink" title="三、git工作区域"></a>三、git工作区域</h1><h2 id="1-工作区"><a href="#1-工作区" class="headerlink" title="1.工作区"></a>1.工作区</h2><ol><li>本地目录</li></ol><h2 id="2-暂存区"><a href="#2-暂存区" class="headerlink" title="2.暂存区"></a>2.暂存区</h2><ol><li>是一种临时存储区域，用于保存即将提交到Git仓库的修改内容</li></ol><h2 id="3-本地仓库"><a href="#3-本地仓库" class="headerlink" title="3.本地仓库"></a>3.本地仓库</h2><ol><li>二中建立的仓库</li></ol><h2 id="4-git中的文件状态"><a href="#4-git中的文件状态" class="headerlink" title="4.git中的文件状态"></a>4.git中的文件状态</h2><ol><li>未跟踪：还没有被git管理起来的文件</li><li>未修改：已经被git管理，但是文件的内容未发生改变</li><li>已修改：已经修改了的文件，但是还没有添加到暂存区</li><li>已暂存：添加到暂存区内的文件</li></ol><h1 id="四、将文件添加到仓库里"><a href="#四、将文件添加到仓库里" class="headerlink" title="四、将文件添加到仓库里"></a>四、将文件添加到仓库里</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init  //创建仓库</span><br><span class="line">git status  //查看仓库状态</span><br><span class="line">git add “文件名称”  //添加到暂存区</span><br><span class="line">git add <span class="emphasis">*。文件后缀  //把该文件后置的所有文件添加到暂存区</span></span><br><span class="line"><span class="emphasis">git add .    //将所有文件添加到暂存区</span></span><br><span class="line"><span class="emphasis">git commit -m &quot;注释&quot;  //提交，只会提交暂存区的文件而不会提交工作区</span></span><br><span class="line"><span class="emphasis">git log  //查找提交</span></span><br></pre></td></tr></table></figure><ol><li>在Vscode中新建内容</li><li>查看仓库状态（此时所有文件为未跟踪状态，显示为红色）</li><li>将文件添加至暂存区（此时文件颜色应该未绿色）</li><li>提交</li><li>查看仓库状态，此时仓库中之前在暂存区的文件应该已经不见了，因为已经被提交了</li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li>每次写完笔记（更改）</li><li>git add . </li><li>git commit -m “注释”</li><li>git push Vscode_Github_Notes master</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>VScode_Notes</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+      <tag>vscode</tag>
+      
+      <tag>private</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>我的第一篇博客文章</title>
     <link href="/2023/07/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
     <url>/2023/07/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
@@ -100,6 +100,33 @@
     <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><hr><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p><hr><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><p>结尾</p><hr>]]></content>
     
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Day 1</title>
+    <link href="/2023/07/17/Day_1/"/>
+    <url>/2023/07/17/Day_1/</url>
+    
+    <content type="html"><![CDATA[<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>学习git相关基础知识</li><li>第一次在github上上传文件</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>学习了简单的vscode-latex方法去做笔记</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>学习简单的hexo语法</li><li>尝试搭建自己的Blog</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>回公寓忘带钥匙了。。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Diary</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>study</tag>
+      
+    </tags>
     
   </entry>
   
