@@ -35,27 +35,25 @@
   
   
   <entry>
-    <title>Markdown入门教程(自用)</title>
-    <link href="/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/"/>
-    <url>/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/</url>
+    <title>Day 2</title>
+    <link href="/2023/07/18/Day_2/"/>
+    <url>/2023/07/18/Day_2/</url>
     
-    <content type="html"><![CDATA[<h2 id="一、打开预览窗口"><a href="#一、打开预览窗口" class="headerlink" title="一、打开预览窗口"></a>一、打开预览窗口</h2><p>ctrl+k,v</p><h2 id="二、简单markdown语法"><a href="#二、简单markdown语法" class="headerlink" title="二、简单markdown语法"></a>二、简单markdown语法</h2><ol><li><p>段落,加粗</p></li><li><p>分割线<br>  &#x2F;—</p></li><li><p>引用</p><blockquote><p>你好<br>nihao</p></blockquote></li><li><p>代码块</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;helloworld&quot;</span>)</span><br></pre></td></tr></table></figure></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&quot;helloworld&quot;)</span><br></pre></td></tr></table></figure><ol start="5"><li><p>超链接<br>   <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a></p></li><li><p>图片<br> cltr+alt+v:保存到Images中<br>  <img src="/../images/20230718023212.png"><br>在blog中需要保存至sourse下的images中</p></li></ol><h2 id="三、数学公式-ctrl-m-补全"><a href="#三、数学公式-ctrl-m-补全" class="headerlink" title="三、数学公式(ctrl+m)(补全)"></a>三、数学公式(ctrl+m)(补全)</h2><ol><li><p>上下标</p><ol><li>xtp: $x^{3}$</li><li>xsb: $x_{3}$</li></ol></li><li><p>分式根式</p><ol><li>&#x2F;&#x2F;配合tab：$\frac{12}{34}$</li><li>hsq: $\sqrt[3]{2}$</li></ol></li><li><p>累加累乘</p><ol><li>sum: $\sum_{n+1}^n&#x3D;\frac{1}{k}$</li><li>prod: $\prod_{n&#x3D;1}^{\infty} $</li></ol></li><li><p>积分</p><ol><li>dint: $\int_{-\infty}^{\infty}  \mathrm{d}x$</li></ol></li><li><p>括号</p><ol><li>$\left(  \frac{1}{k} \right)$</li></ol></li><li><p>对其</p><ol><li>一个$+ali: 左对齐</li><li>两个$+ali: 右对齐</li></ol><p>$$<br>\begin{aligned}<br>y &amp;&#x3D;(x+5)^2-(x+1)^2 \<br>&amp;&#x3D;(x^2+10x+25)-(x^2+2x+1) \<br>&amp;&#x3D;8x+24 \<br>\end{aligned}<br>$$</p><p>$<br>\begin{aligned}<br>y &amp;&#x3D;(x+5)^2-(x+1)^2 \<br>&amp;&#x3D;(x^2+10x+25)-(x^2+2x+1) \<br>&amp;&#x3D;8x+24 \<br>\end{aligned}<br>$</p></li><li><p>方程组</p><ol><li>case<br>$\begin{cases}<br>1+2&amp;&#x3D;8  \<br>3+6+4&amp;&#x3D;24 \<br>2+3&amp;&#x3D;5<br>\end{cases}$</li></ol></li><li><p>矩阵</p><ol><li>矩阵：bmat2 bmat3<br>$\begin{bmatrix} 1 &amp; 2  &amp; 3 \ 3 &amp; 4 &amp; 5 \7  &amp; 8 &amp; 5 \\end{bmatrix}$<br>2.行列式<br>$\begin{bmatrix} 1&amp;2&amp;3 \ 4&amp;5&amp;5 \ 7&amp;8&amp;9 \\end{bmatrix}$</li></ol></li></ol><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p>Ctrl + Z,：撤销 </p><p> Ctrl + Shift + Z： 反撤销</p><p>Shift + ← ：向左选中一个字符</p><p>Shift + → ：向右选中一个字符</p><p>Ctrl + Shift + →： 向右选中一个单词</p><p>Ctrl + Shift + ←： 向左选中一个单词</p><p>Shift + Alt + ↑ 向上复制当前行或选中多行</p><p>Shift + Alt + ↓ 向下复制当前行或选中多行</p><p>Alt + ↑ 向上移动当前行或选中多行</p><p>Alt + ↓ 向下移动当前行或选中多行</p><p>cltr + f 检索词汇</p><h2 id="计算器"><a href="#计算器" class="headerlink" title="计算器"></a>计算器</h2><p>Ctrl + Shift + Alt + E 计算当前选中表达式, 用等号连接并输出</p><p>Ctrl + Shift + Alt + R 计算当前选中表达式, 并替换当前选中表达式</p><p>Ctrl + Shift + Alt + D 定义当前选中表达式, 无输出</p><h2 id="Markdown高级用法"><a href="#Markdown高级用法" class="headerlink" title="Markdown高级用法"></a>Markdown高级用法</h2><ol><li>目录<br>[TOC]</li></ol><h2 id="背诵"><a href="#背诵" class="headerlink" title="背诵"></a>背诵</h2><ol><li>符号<br><img src="/../images/20230718023827.png"></li><li>**  &#x3D;&gt;  $\cdot$</li></ol><p>xx  &#x3D;&gt;  $\times$</p><p>otimes  &#x3D;&gt;  $\otimes$</p><p>&lt;&#x3D;  &#x3D;&gt;  $\le$</p><p>!&#x3D;  &#x3D;&gt;  $\neq$</p><p>&#x3D;&#x3D;  &#x3D;&gt;  $\equiv$</p><p>~~  &#x3D;&gt;  $\thickapprox$</p><p>sim  &#x3D;&gt;  $\sim$</p><p>land  &#x3D;&gt;  $\land$</p><p>lor  &#x3D;&gt; $\lor$</p><p>bec  &#x3D;&gt;  $\because$</p><p>thr  &#x3D;&gt;  $\therefore$</p><p>EE  &#x3D;&gt;  $\exists$</p><p>AA  &#x3D;&gt;  $\forall$</p><p>inn  &#x3D;&gt;  $\in$</p><p>sse  &#x3D;&gt;  $\subseteq$</p><p>cap  &#x3D;&gt;  $\cap$</p><p>cup  &#x3D;&gt;  $\cup$</p><p>empty  &#x3D;&gt;  $\empty$</p><p>oo  &#x3D;&gt;  $\infty$</p><p>lim  &#x3D;&gt;  $\lim_{<n> \to &lt;\infty&gt;}$</p><p>dd  &#x3D;&gt;  $\mathrm{d}$</p><p>part  &#x3D;&gt;  $\frac{\partial <V>}{\partial <x>}$</p><p>Delta  &#x3D;&gt;  $\Delta$</p><p>nabla  &#x3D;&gt;  $\nabla$</p><p>…  &#x3D;&gt;  $\cdots$</p><p>txt  &#x3D;&gt;  $\text{…}$</p><p>xbar  &#x3D;&gt;  $\bar{x}$</p><p>xhat  &#x3D;&gt;  $\hat{x}$</p><p>xhvec  &#x3D;&gt;  $\vec{x}$</p><p>xhdot  &#x3D;&gt;  $\dot{x}$</p><p>Xbf  &#x3D;&gt;  $\mathbf{X}$</p><p>Xcal  &#x3D;&gt;  $\mathcal{X}$</p><p>Xfrak  &#x3D;&gt;  $\mathfrak{X}$</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>熟悉了如何将本地库输送到远程库</li><li>熟悉从远程库拉取到本地</li><li>学会了如何克隆</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>自定义了自己的Blog</li><li>发了几篇文章，感觉不错</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>熟悉了vscode输送到github的过程</li><li>熟悉了vscode的用法</li><li>背诵latex语法</li><li>开始用vscode记笔记</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>学到新东西，很爽</li></ol>]]></content>
     
     
     <categories>
       
-      <category>VScode_Notes</category>
+      <category>Diary</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>vscode</tag>
+      <tag>Diary</tag>
       
-      <tag>private</tag>
-      
-      <tag>markdown</tag>
+      <tag>study</tag>
       
     </tags>
     
@@ -85,6 +83,35 @@
       <tag>vscode</tag>
       
       <tag>private</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Markdown入门教程(自用)</title>
+    <link href="/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/"/>
+    <url>/2023/07/18/MarkDown%E8%AF%AD%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="一、打开预览窗口"><a href="#一、打开预览窗口" class="headerlink" title="一、打开预览窗口"></a>一、打开预览窗口</h2><p>ctrl+k,v</p><h2 id="二、简单markdown语法"><a href="#二、简单markdown语法" class="headerlink" title="二、简单markdown语法"></a>二、简单markdown语法</h2><ol><li><p>段落,加粗</p></li><li><p>分割线<br>  &#x2F;—</p></li><li><p>引用</p><blockquote><p>你好<br>nihao</p></blockquote></li><li><p>代码块</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;helloworld&quot;</span>)</span><br></pre></td></tr></table></figure></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&quot;helloworld&quot;)</span><br></pre></td></tr></table></figure><ol start="5"><li><p>超链接<br>   <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a></p></li><li><p>图片<br> cltr+alt+v:保存到Images中<br>  <img src="/../images/20230718023212.png"><br>在blog中需要保存至sourse下的images中</p></li></ol><h2 id="三、数学公式-ctrl-m-补全"><a href="#三、数学公式-ctrl-m-补全" class="headerlink" title="三、数学公式(ctrl+m)(补全)"></a>三、数学公式(ctrl+m)(补全)</h2><ol><li><p>上下标</p><ol><li>xtp: $x^{3}$</li><li>xsb: $x_{3}$</li></ol></li><li><p>分式根式</p><ol><li>&#x2F;&#x2F;配合tab：$\frac{12}{34}$</li><li>hsq: $\sqrt[3]{2}$</li></ol></li><li><p>累加累乘</p><ol><li>sum: $\sum_{n+1}^n&#x3D;\frac{1}{k}$</li><li>prod: $\prod_{n&#x3D;1}^{\infty} $</li></ol></li><li><p>积分</p><ol><li>dint: $\int_{-\infty}^{\infty}  \mathrm{d}x$</li></ol></li><li><p>括号</p><ol><li>$\left(  \frac{1}{k} \right)$</li></ol></li><li><p>对其</p><ol><li>一个$+ali: 左对齐</li><li>两个$+ali: 右对齐</li></ol><p>$$<br>\begin{aligned}<br>y &amp;&#x3D;(x+5)^2-(x+1)^2 \<br>&amp;&#x3D;(x^2+10x+25)-(x^2+2x+1) \<br>&amp;&#x3D;8x+24 \<br>\end{aligned}<br>$$</p><p>$<br>\begin{aligned}<br>y &amp;&#x3D;(x+5)^2-(x+1)^2 \<br>&amp;&#x3D;(x^2+10x+25)-(x^2+2x+1) \<br>&amp;&#x3D;8x+24 \<br>\end{aligned}<br>$</p></li><li><p>方程组</p><ol><li>case<br>$\begin{cases}<br>1+2&amp;&#x3D;8  \<br>3+6+4&amp;&#x3D;24 \<br>2+3&amp;&#x3D;5<br>\end{cases}$</li></ol></li><li><p>矩阵</p><ol><li>矩阵：bmat2 bmat3<br>$\begin{bmatrix} 1 &amp; 2  &amp; 3 \ 3 &amp; 4 &amp; 5 \7  &amp; 8 &amp; 5 \\end{bmatrix}$<br>2.行列式<br>$\begin{bmatrix} 1&amp;2&amp;3 \ 4&amp;5&amp;5 \ 7&amp;8&amp;9 \\end{bmatrix}$</li></ol></li></ol><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p>Ctrl + Z,：撤销 </p><p> Ctrl + Shift + Z： 反撤销</p><p>Shift + ← ：向左选中一个字符</p><p>Shift + → ：向右选中一个字符</p><p>Ctrl + Shift + →： 向右选中一个单词</p><p>Ctrl + Shift + ←： 向左选中一个单词</p><p>Shift + Alt + ↑ 向上复制当前行或选中多行</p><p>Shift + Alt + ↓ 向下复制当前行或选中多行</p><p>Alt + ↑ 向上移动当前行或选中多行</p><p>Alt + ↓ 向下移动当前行或选中多行</p><p>cltr + f 检索词汇</p><h2 id="计算器"><a href="#计算器" class="headerlink" title="计算器"></a>计算器</h2><p>Ctrl + Shift + Alt + E 计算当前选中表达式, 用等号连接并输出</p><p>Ctrl + Shift + Alt + R 计算当前选中表达式, 并替换当前选中表达式</p><p>Ctrl + Shift + Alt + D 定义当前选中表达式, 无输出</p><h2 id="Markdown高级用法"><a href="#Markdown高级用法" class="headerlink" title="Markdown高级用法"></a>Markdown高级用法</h2><ol><li>目录<br>[TOC]</li></ol><h2 id="背诵"><a href="#背诵" class="headerlink" title="背诵"></a>背诵</h2><ol><li>符号<br><img src="/../images/20230718023827.png"></li><li>**  &#x3D;&gt;  $\cdot$</li></ol><p>xx  &#x3D;&gt;  $\times$</p><p>otimes  &#x3D;&gt;  $\otimes$</p><p>&lt;&#x3D;  &#x3D;&gt;  $\le$</p><p>!&#x3D;  &#x3D;&gt;  $\neq$</p><p>&#x3D;&#x3D;  &#x3D;&gt;  $\equiv$</p><p>~~  &#x3D;&gt;  $\thickapprox$</p><p>sim  &#x3D;&gt;  $\sim$</p><p>land  &#x3D;&gt;  $\land$</p><p>lor  &#x3D;&gt; $\lor$</p><p>bec  &#x3D;&gt;  $\because$</p><p>thr  &#x3D;&gt;  $\therefore$</p><p>EE  &#x3D;&gt;  $\exists$</p><p>AA  &#x3D;&gt;  $\forall$</p><p>inn  &#x3D;&gt;  $\in$</p><p>sse  &#x3D;&gt;  $\subseteq$</p><p>cap  &#x3D;&gt;  $\cap$</p><p>cup  &#x3D;&gt;  $\cup$</p><p>empty  &#x3D;&gt;  $\empty$</p><p>oo  &#x3D;&gt;  $\infty$</p><p>lim  &#x3D;&gt;  $\lim_{<n> \to &lt;\infty&gt;}$</p><p>dd  &#x3D;&gt;  $\mathrm{d}$</p><p>part  &#x3D;&gt;  $\frac{\partial <V>}{\partial <x>}$</p><p>Delta  &#x3D;&gt;  $\Delta$</p><p>nabla  &#x3D;&gt;  $\nabla$</p><p>…  &#x3D;&gt;  $\cdots$</p><p>txt  &#x3D;&gt;  $\text{…}$</p><p>xbar  &#x3D;&gt;  $\bar{x}$</p><p>xhat  &#x3D;&gt;  $\hat{x}$</p><p>xhvec  &#x3D;&gt;  $\vec{x}$</p><p>xhdot  &#x3D;&gt;  $\dot{x}$</p><p>Xbf  &#x3D;&gt;  $\mathbf{X}$</p><p>Xcal  &#x3D;&gt;  $\mathcal{X}$</p><p>Xfrak  &#x3D;&gt;  $\mathfrak{X}$</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>VScode_Notes</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>vscode</tag>
+      
+      <tag>private</tag>
+      
+      <tag>markdown</tag>
       
     </tags>
     
