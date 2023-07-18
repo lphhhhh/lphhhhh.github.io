@@ -8,7 +8,7 @@
     <link href="/2023/07/18/Blog/"/>
     <url>/2023/07/18/Blog/</url>
     
-    <content type="html"><![CDATA[<p><img src="/../Images/20230718070523.png"></p><h2 id="各个文件简介"><a href="#各个文件简介" class="headerlink" title="各个文件简介"></a>各个文件简介</h2><ol><li>node_modules：存放一些相关组件</li><li>sourses：博客以markdown形式存放在这里</li><li>themes：主题存放</li><li>config.yml:hexo配置比如标题作者在这里进行配置(最重要)</li><li>public:经过hexok g生成的静态网站存放在这里，会按照时间等对曾经喜欢的文章存放</li></ol><h2 id="hexo主题的安装与推荐"><a href="#hexo主题的安装与推荐" class="headerlink" title="hexo主题的安装与推荐"></a>hexo主题的安装与推荐</h2><ol><li>在hexo官网中找主题</li><li>复制下载链接</li><li>进入终端Blog文件夹</li><li>粘贴下载</li><li>在config.yml中修改相关信息</li><li>hexo s 启动</li></ol><h2 id="自定义博客结构"><a href="#自定义博客结构" class="headerlink" title="自定义博客结构"></a>自定义博客结构</h2><ol><li>找到存放主题的文件并打开（文件搜获）</li></ol><h2 id="书写文章以及文章的分类与标签"><a href="#书写文章以及文章的分类与标签" class="headerlink" title="书写文章以及文章的分类与标签"></a>书写文章以及文章的分类与标签</h2><ol><li>看源代码提头</li></ol><h2 id="粘贴照片"><a href="#粘贴照片" class="headerlink" title="粘贴照片"></a>粘贴照片</h2><ol><li>cltr+alt+v</li><li>保存至sourse下的images下<br><img src="/../Images/20230718015706.png"></li></ol><h2 id="生成博客文章"><a href="#生成博客文章" class="headerlink" title="生成博客文章"></a>生成博客文章</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs markdown"><code class="language-hljs markdown">hexo s //启动博客<br>hexo n "文件名称"  //生成博客文章<br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure><p>点击进md文件进行博客编写</p><h2 id="三板斧"><a href="#三板斧" class="headerlink" title="三板斧"></a>三板斧</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs markdown"><code class="language-hljs markdown">hexo clean  //清理<br>hexo g  //生成静态<br>hexo s  //再启动 <br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure><h2 id="将博客部署到远端（github）"><a href="#将博客部署到远端（github）" class="headerlink" title="将博客部署到远端（github）"></a>将博客部署到远端（github）</h2><p>hexo d 推送到远端</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><p>1.文件简介 2.主题安装 3.书写博客 4.如何上传博客</p><span id="more"></span><h2 id="各个文件简介"><a href="#各个文件简介" class="headerlink" title="各个文件简介"></a>各个文件简介</h2><ol><li>node_modules：存放一些相关组件</li><li>sourses：博客以markdown形式存放在这里</li><li>themes：主题存放</li><li>config.yml:hexo配置比如标题作者在这里进行配置(最重要)</li><li>public:经过hexok g生成的静态网站存放在这里，会按照时间等对曾经喜欢的文章存放</li></ol><h2 id="hexo主题的安装与推荐"><a href="#hexo主题的安装与推荐" class="headerlink" title="hexo主题的安装与推荐"></a>hexo主题的安装与推荐</h2><ol><li>在hexo官网中找主题</li><li>复制下载链接</li><li>进入终端Blog文件夹</li><li>粘贴下载</li><li>在config.yml中修改相关信息</li><li>hexo s 启动</li></ol><h2 id="自定义博客结构"><a href="#自定义博客结构" class="headerlink" title="自定义博客结构"></a>自定义博客结构</h2><ol><li>找到存放主题的文件并打开（文件搜获）</li></ol><h2 id="书写文章以及文章的分类与标签"><a href="#书写文章以及文章的分类与标签" class="headerlink" title="书写文章以及文章的分类与标签"></a>书写文章以及文章的分类与标签</h2><ol><li>看源代码提头</li></ol><h2 id="粘贴照片"><a href="#粘贴照片" class="headerlink" title="粘贴照片"></a>粘贴照片</h2><ol><li>cltr+alt+v</li><li>保存至sourse下的images下<br><img src="/../Images/20230718015706.png"></li></ol><h2 id="生成博客文章"><a href="#生成博客文章" class="headerlink" title="生成博客文章"></a>生成博客文章</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs markdown"><code class="language-hljs markdown">hexo s //启动博客<br>hexo n "文件名称"  //生成博客文章<br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure><p>点击进md文件进行博客编写</p><h2 id="三板斧"><a href="#三板斧" class="headerlink" title="三板斧"></a>三板斧</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre class="line-numbers language-hljs markdown"><code class="language-hljs markdown">hexo clean  //清理<br>hexo g  //生成静态<br>hexo s  //再启动 <br><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></td></tr></table></figure><h2 id="将博客部署到远端（github）"><a href="#将博客部署到远端（github）" class="headerlink" title="将博客部署到远端（github）"></a>将博客部署到远端（github）</h2><p>hexo d 推送到远端</p>]]></content>
     
     
     <categories>
@@ -39,7 +39,7 @@
     <link href="/2023/07/18/Day_2/"/>
     <url>/2023/07/18/Day_2/</url>
     
-    <content type="html"><![CDATA[<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>熟悉了如何将本地库输送到远程库</li><li>熟悉从远程库拉取到本地</li><li>学会了如何克隆</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>自定义了自己的Blog</li><li>发了几篇文章，感觉不错</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>熟悉了vscode输送到github的过程</li><li>熟悉了vscode的用法</li><li>背诵latex语法</li><li>开始用vscode记笔记</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>学到新东西，很爽</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>1.git  2.vscode  3.blog</p><span id="more"></span><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>熟悉了如何将本地库输送到远程库</li><li>熟悉从远程库拉取到本地</li><li>学会了如何克隆</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>自定义了自己的Blog</li><li>发了几篇文章，感觉不错</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>熟悉了vscode输送到github的过程</li><li>熟悉了vscode的用法</li><li>背诵latex语法</li><li>开始用vscode记笔记</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>学到新东西，很爽</li></ol>]]></content>
     
     
     <categories>
@@ -66,7 +66,7 @@
     <link href="/2023/07/17/Day_1/"/>
     <url>/2023/07/17/Day_1/</url>
     
-    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol><li>git</li><li>vscode</li><li>blog</li></ol><span id="more"></span><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>学习git相关基础知识</li><li>第一次在github上上传文件</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>学习了简单的vscode-latex方法去做笔记</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>学习简单的hexo语法</li><li>尝试搭建自己的Blog</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>回公寓忘带钥匙了。。</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>1.git  2.vscode  3.blog</p><span id="more"></span><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>学习git相关基础知识</li><li>第一次在github上上传文件</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>学习了简单的vscode-latex方法去做笔记</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>学习简单的hexo语法</li><li>尝试搭建自己的Blog</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>回公寓忘带钥匙了。。</li></ol>]]></content>
     
     
     <categories>
@@ -93,9 +93,23 @@
     <link href="/2023/07/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
     <url>/2023/07/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><hr><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p><hr><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><p>结尾</p><hr>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>1.blog书写以及上传</p><span id="more"></span><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><hr><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p><hr><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><p>结尾</p><hr>]]></content>
     
     
+    <categories>
+      
+      <category>Diary</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>study</tag>
+      
+    </tags>
     
   </entry>
   
