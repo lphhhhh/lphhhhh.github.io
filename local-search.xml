@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Day 5</title>
+    <link href="/2023/07/21/Day_5/"/>
+    <url>/2023/07/21/Day_5/</url>
+    
+    <content type="html"><![CDATA[<h2 id="计划学习内容"><a href="#计划学习内容" class="headerlink" title="计划学习内容"></a>计划学习内容</h2><ul><li><input checked="" disabled="" type="checkbox"> 英语单词</li><li><input checked="" disabled="" type="checkbox"> 数学第六讲</li><li><input checked="" disabled="" type="checkbox"> 数据结构第二章</li></ul><span id="more"></span><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><ol><li>英语单词背诵与拼写</li></ol><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><ol><li>完成第六讲</li></ol><h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><ol><li>完成第二章</li></ol><h2 id="doing"><a href="#doing" class="headerlink" title="doing"></a>doing</h2><ol><li>有点疲惫，可能是没睡好</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Diary</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>study</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Day 4</title>
     <link href="/2023/07/20/Day_4/"/>
     <url>/2023/07/20/Day_4/</url>
@@ -58,6 +85,33 @@
   
   
   <entry>
+    <title>Day 2</title>
+    <link href="/2023/07/18/Day_2/"/>
+    <url>/2023/07/18/Day_2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>1.git  2.vscode  3.blog</p><span id="more"></span><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>熟悉了如何将本地库输送到远程库</li><li>熟悉从远程库拉取到本地</li><li>学会了如何克隆</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>自定义了自己的Blog</li><li>发了几篇文章，感觉不错</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>熟悉了vscode输送到github的过程</li><li>熟悉了vscode的用法</li><li>背诵latex语法</li><li>开始用vscode记笔记</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>学到新东西，很爽</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Diary</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>study</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Blog入门笔记(自用)</title>
     <link href="/2023/07/18/Blog/"/>
     <url>/2023/07/18/Blog/</url>
@@ -81,33 +135,6 @@
       <tag>vscode</tag>
       
       <tag>private</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Day 2</title>
-    <link href="/2023/07/18/Day_2/"/>
-    <url>/2023/07/18/Day_2/</url>
-    
-    <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>1.git  2.vscode  3.blog</p><span id="more"></span><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><ol><li>熟悉了如何将本地库输送到远程库</li><li>熟悉从远程库拉取到本地</li><li>学会了如何克隆</li></ol><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><ol><li>自定义了自己的Blog</li><li>发了几篇文章，感觉不错</li></ol><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>熟悉了vscode输送到github的过程</li><li>熟悉了vscode的用法</li><li>背诵latex语法</li><li>开始用vscode记笔记</li></ol><h2 id="趣事"><a href="#趣事" class="headerlink" title="趣事"></a>趣事</h2><ol><li>学到新东西，很爽</li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>Diary</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Diary</tag>
-      
-      <tag>study</tag>
       
     </tags>
     
